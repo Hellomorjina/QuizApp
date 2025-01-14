@@ -72,6 +72,7 @@ const Quize = () => {
               <li ref={option2} onClick={(e)=>{chckAns(e,2)}}> {question.option2}</li>
               <li ref={option3} onClick={(e)=>{chckAns(e,3)}}>{question.option3}</li>
               <li ref={option4} onClick={(e)=>{chckAns(e,4)}}>{question.option4}</li>
+             
           </ul>
           <button onClick={Next}>Next</button>
           <div className='index'>{index+1} of {data.length} Questions</div>
