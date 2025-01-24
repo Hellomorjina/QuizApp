@@ -9,5 +9,6 @@
 body{
   height:100vh;
   font-family: "Poppins", sans-serif;
-  background-image:linear-gradient(#000957,#f5f6ff);
+  /* background-image:linear-gradient(#000957,#f5f6ff); */
+  background-image:url('./assets/download (1).png') ;
 }
