@@ -9,13 +9,14 @@
   gap:15px;
   border-radius:10px;
   padding:30px 40px;
+ 
 }
-.morjina{
+/* .morjina{
   font-size:18px;
   font-weight: 500;
-  color: #553f9a;
+  color: #577BC1;
   float:left;
-}
+} */
 .container hr{
   height:2px;
   border: none;
@@ -39,22 +40,23 @@
   margin: auto;
   width:200px;
   height:60px;
-  background:#553f9a;
+  background:#000957;
   color:white;
   font-size:20px;
   font-weight:500;
   border-radius:8px;
   cursor:pointer;
+  border:none;
 }
 .container .index{
   margin:auto;
   font-size:18px;
 }
 .container .correct{
-  border:1px solid #00966c;
-  background-color:#91f0c4 ;
+  border:2px solid #00b10f;
+  background-color:#5bffb2 ;
 }
 .container .wrong{
-  background:#fdcaca;
-  border:1px solid #ff3636;
+  background:#ecaeae;
+  border:2px solid #ff0000;
 }
