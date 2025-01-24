@@ -3,6 +3,7 @@ import './Quize.css'
 import React, { useRef, useState } from 'react'
 import { data } from '../assets/data';
 
+
 const Quize = () => {
  
   let [index, setIndex] = useState(0);
@@ -63,7 +64,9 @@ const Quize = () => {
  }
   return (
     <div className='container'>
-       <h1> JS Quiz 🕐</h1>
+     <div className='headerlogo'>
+        <h1>JS Quiz </h1><img style={{width:"50px",height:"50px"}} src="https://yt3.googleusercontent.com/10SsmrmKHz3hodF2RUeF2bhL5NuBOIwKEDrOGHTYu4bT07vRwlWaKlXeJ8Rd6GUa_-3J3Y7Q3xQ=s160-c-k-c0x00ffffff-no-rj" alt="" />
+     </div>
      
        <hr/>
        {result?<></>:<>

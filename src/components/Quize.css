@@ -11,6 +11,11 @@
   padding:30px 40px;
  
 }
+.headerlogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* .morjina{
   font-size:18px;
   font-weight: 500;
